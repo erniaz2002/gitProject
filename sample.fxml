@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F5DEB3;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="192.0" layoutY="32.0" text="Rakhat-Lukum">
+         <font>
+            <Font name="French Script MT" size="43.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login_field" layoutX="208.0" layoutY="144.0" promptText="login" style="-fx-background-color: #fafafa; -fx-border-color: silver;" />
+      <PasswordField fx:id="password_field" layoutX="208.0" layoutY="213.0" promptText="password" style="-fx-background-color: #fafafa; -fx-border-color: silver;" />
+      <Button fx:id="registration_button" layoutX="469.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: #D2691E;" text="Registration">
+         <font>
+            <Font name="Bodoni MT" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="singin_button" layoutX="232.0" layoutY="273.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #D2691E;" text="Sing in" />
+      <GridPane alignment="center" hgap="10" vgap="10">
+</GridPane>
+      <Button fx:id="ButAdmin" layoutX="208.0" layoutY="336.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #D2691E;" text="I am Admin!" />
+   </children>
+</AnchorPane>
